@@ -1,0 +1,269 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header,footer,aside,nav,article{
+	display: block;
+}
+body{
+	margin: 0 auto;
+	width: 940px;
+	font: 13px/22px Helvetica, Arial,sans-serif;
+	background:#fofofo;
+}
+h4{
+	font-size: 15px;
+	width:1000px;
+}
+h3{
+	font-size: 18px;
+	line-height: 22px;
+	padding: 11px 0;
+}
+p{
+	padding-bottom: 22px;
+}
+
+nav > ul{
+	display:table;
+	overflow:hidden;
+	width:1000px;
+	background:#1F618D;
+	position:relative;
+}
+ul,li,a{
+	text-decoration:none;
+}
+nav > ul li{
+	display:table-cell;
+}
+nav > ul > li > ul {
+	display:none;
+
+}
+nav > ul li a{
+	color:white;
+	display:block;
+	line-height:50px;
+	position:relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+li:hover
+{
+	background:#5DADE2;
+	color:red;
+}
+nav > ul > li > ul > li a:hover{
+	background:white;
+	text-decoration:none;
+}
+
+#intro{
+	margin-top: 66px;
+	padding: 44px;
+	background: #FBFCFC;
+	background-size: 100%;
+	border-radius: 22px;
+	text-align:justify;
+	color:black;
+	}
+#intro{
+	-webkit-background-size:100%;
+	-o-background-size:100%;
+	-khtml-background-size:100%;
+
+	-moz-border-radius:22px;
+	-webkit-border-radius:22px;
+}
+#intro h2, #intro p{
+	position:relative;
+	z-index: 9999;
+	width:450px;
+}
+#intro h2{
+	padding:0 0 22px 0;
+	font-weight:normal;
+	color:black;
+}
+#intro p{
+	padding:0;
+	color:black;
+}
+#intro img{
+		position:absolute;	
+		top:110px;
+		padding-left:530px;
+		width:300px;
+		height:330px;
+}
+#content{
+	display:table;
+}
+#mainContent{
+	display:table-cell;
+	width:620px;
+	padding-right:22px;
+}
+aside{
+	display:table-cell;
+	width:300px;
+}
+.blogPost header p, .blogPost header p a{
+	font-size:14px;
+	font-style:italic;
+	color:#777;
+}
+.blogPost header p a:hover{
+text-decoration:none;
+color:#000;
+}
+.blogPost div{
+	-moz-column-count:2;
+	-webkit-column-count:2;
+		-moz-column-gap:22px;
+	-webkit-column-gap:22px;
+}
+.blogPost img{
+	margin:22px 0;
+	-webkit-box-shadow: 3px 3px 7px #777;
+}
+#comments{
+	margin-top:21px;
+	padding-top:22px;
+	border-top:1px solid #d7d7d7;
+}
+#comments article{
+	display:table;
+	padding:22px;
+}
+#comments article:nth-child(odd){
+	padding:21px;
+	background:#E3E3E3;
+	border:1px solid #d7d7d7;
+	-moz-border-radius:11px;
+	-webkit-border-radius:11px;
+}
+#comments article header{
+	display:table-cell;
+	width:220px;
+	padding-right:22px;
+}
+#comments article header a{
+	display:block;
+	font-weight:bold;
+	color:#000;
+}
+#comments article header a:hover{
+	text-decoration:none;
+}
+#comments article p {
+	padding:0;
+}
+form{
+	margin-top:21px;
+	padding-top:22px;
+	border-top:1px solid #d7d7d7;
+}
+	form p{
+		display:table;
+		margin-top:22px;
+		padding:0 22px;
+	}
+		form label{
+			display:table-cell;
+			width:140px;
+			padding-right:20px;
+			text-align:right;
+			font-weight:bold;
+			vertical-align:top;
+		}
+		form input[type="text"],form input[type="email"], form input[type="url"]{
+			display:table-cell;
+			width:300px;
+			height:20px;
+			border:1px solid #d7d7d7;
+		}
+		form textarea {
+			width:300px;
+			height:100px;
+			border:1px solid #d7d7d7;
+		}
+		form input[type="submit"]{
+			margin-left:162px;
+			width:150px;
+			height:50px;
+			background: #3498DB ;
+			font-style:bold;
+			font-size:15pt;
+		}
+			form input[type="submit"]:hover{
+				background:#5DADE2;
+				color:white;
+				
+		}
+	aside section{
+		margin:22px 0 0 22px;
+		padding:11px 22px;
+		background:#99A3A4;
+		-moz-border-radius:11px;
+		-webkit-border-radius:11px;
+	}
+		aside section ul{
+			margin:0 0 0 22px;
+			list-style:none;
+		}
+			aside section ul li a{
+				display:block;
+				text-decoration:none;
+				color:white;
+			}
+				aside section ul li a:hover{
+					text-decoration:underline;
+					color:white;
+				}
+	footer{
+		position:absolute;
+		left:0;
+		width:100%;
+		background:#222;
+	}
+		footer div{
+			display:table;
+			margin:0 auto;
+			padding:44px 0;
+			width:940px;
+			color:#777;
+		}
+			footer div section{
+				display:table-cell;
+				width:300px;
+			}
+				footer div #about, footer div #blogroll{
+					padding-right:20px;
+				}
+			footer h3{
+				color:#FFF;
+			}	
+				footer a:hover{
+					color:black;
+					text-decoration:none;
+				}
+			footer ul{
+				margin:0 0 0 40px;
+				list-style:square;
+				color:white;
+			}	
+				footer ul li a{
+					display:block;
+					color:white;
+				}
+				footer p{
+					text-align:justify;
+				}
+				

@@ -1,0 +1,16 @@
+ html{
+	 	 background-image: url();
+		 background-size:100%;
+		 color:Black;
+		 
+ }
+ body {
+     font-family: 'Roboto', sans-serif;
+
+      }
+  .Menu{
+      	text-align: center;
+      	color:white;
+      	background-color: #FFAAAA;
+      	font-size:15px;
+      	font-style: bold;
